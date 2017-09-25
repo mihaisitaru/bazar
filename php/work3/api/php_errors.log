@@ -1,0 +1,875 @@
+[06-Jul-2017 07:34:25 UTC] PHP Warning:  mysqli_query(): Empty query in /home/ubuntu/workspace/work3/lib/userLib.php on line 10
+[06-Jul-2017 07:34:25 UTC] PHP Stack trace:
+[06-Jul-2017 07:34:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/work3/api/user/loginUser.php:0
+[06-Jul-2017 07:34:25 UTC] PHP   2. loginUser() /home/ubuntu/workspace/work3/api/user/loginUser.php:11
+[06-Jul-2017 07:34:25 UTC] PHP   3. mysqli_query() /home/ubuntu/workspace/work3/lib/userLib.php:10
+[06-Jul-2017 09:29:36 UTC] PHP Warning:  Missing argument 1 for returnUserDetails(), called in /home/ubuntu/workspace/work3/lib/userLib.php on line 14 and defined in /home/ubuntu/workspace/work3/lib/userLib.php on line 26
+[06-Jul-2017 09:29:36 UTC] PHP Stack trace:
+[06-Jul-2017 09:29:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/work3/api/user/loginUser.php:0
+[06-Jul-2017 09:29:36 UTC] PHP   2. loginUser() /home/ubuntu/workspace/work3/api/user/loginUser.php:11
+[06-Jul-2017 09:29:36 UTC] PHP   3. returnUserDetails() /home/ubuntu/workspace/work3/lib/userLib.php:14
+[06-Jul-2017 09:31:38 UTC] PHP Warning:  Missing argument 1 for returnUserDetails(), called in /home/ubuntu/workspace/work3/lib/userLib.php on line 14 and defined in /home/ubuntu/workspace/work3/lib/userLib.php on line 26
+[06-Jul-2017 09:31:38 UTC] PHP Stack trace:
+[06-Jul-2017 09:31:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/work3/api/user/loginUser.php:0
+[06-Jul-2017 09:31:38 UTC] PHP   2. loginUser() /home/ubuntu/workspace/work3/api/user/loginUser.php:11
+[06-Jul-2017 09:31:38 UTC] PHP   3. returnUserDetails() /home/ubuntu/workspace/work3/lib/userLib.php:14
+[06-Jul-2017 10:16:17 UTC] PHP Fatal error:  Call to undefined function logoutUser() in /home/ubuntu/workspace/work3/lib/userLib.php on line 21
+[06-Jul-2017 10:16:17 UTC] PHP Stack trace:
+[06-Jul-2017 10:16:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/work3/api/user/loginUser.php:0
+[06-Jul-2017 10:16:17 UTC] PHP   2. loginUser() /home/ubuntu/workspace/work3/api/user/loginUser.php:11
+[07-Jul-2017 10:09:59 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/work3/lib/outputHelper.php on line 21
+[07-Jul-2017 10:09:59 UTC] PHP Stack trace:
+[07-Jul-2017 10:09:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/work3/api/user/loginUser.php:0
+[07-Jul-2017 10:09:59 UTC] PHP   2. echoJSONOutput() /home/ubuntu/workspace/work3/api/user/loginUser.php:12
+[07-Jul-2017 10:09:59 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/work3/lib/outputHelper.php:21
+[07-Jul-2017 10:10:32 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/work3/lib/outputHelper.php on line 21
+[07-Jul-2017 10:10:32 UTC] PHP Stack trace:
+[07-Jul-2017 10:10:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/work3/api/user/loginUser.php:0
+[07-Jul-2017 10:10:32 UTC] PHP   2. echoJSONOutput() /home/ubuntu/workspace/work3/api/user/loginUser.php:12
+[07-Jul-2017 10:10:32 UTC] PHP   3. mysqli_num_rows() /home/ubuntu/workspace/work3/lib/outputHelper.php:21
+[07-Jul-2017 10:20:59 UTC] PHP Warning:  Missing argument 2 for loginUser(), called in /home/ubuntu/workspace/work3/api/user/loginUser.php on line 11 and defined in /home/ubuntu/workspace/work3/lib/userLib.php on line 5
+[07-Jul-2017 10:20:59 UTC] PHP Stack trace:
+[07-Jul-2017 10:20:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/work3/api/user/loginUser.php:0
+[07-Jul-2017 10:20:59 UTC] PHP   2. loginUser() /home/ubuntu/workspace/work3/api/user/loginUser.php:11
+[07-Jul-2017 10:22:07 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/work3/api/user/loginUser.php on line 13
+[07-Jul-2017 10:41:41 UTC] PHP Warning:  Missing argument 1 for returnUserDetails(), called in /home/ubuntu/workspace/work3/lib/userLib.php on line 13 and defined in /home/ubuntu/workspace/work3/lib/userLib.php on line 35
+[07-Jul-2017 10:41:41 UTC] PHP Stack trace:
+[07-Jul-2017 10:41:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/work3/api/user/loginUser.php:0
+[07-Jul-2017 10:41:41 UTC] PHP   2. loginUser() /home/ubuntu/workspace/work3/api/user/loginUser.php:11
+[07-Jul-2017 10:41:41 UTC] PHP   3. returnUserDetails() /home/ubuntu/workspace/work3/lib/userLib.php:13
+[07-Jul-2017 10:41:58 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/ubuntu/workspace/work3/lib/userLib.php on line 37
+[07-Jul-2017 10:41:58 UTC] PHP Stack trace:
+[07-Jul-2017 10:41:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/work3/api/user/loginUser.php:0
+[07-Jul-2017 10:41:58 UTC] PHP   2. loginUser() /home/ubuntu/workspace/work3/api/user/loginUser.php:11
+[07-Jul-2017 10:41:58 UTC] PHP   3. returnUserDetails() /home/ubuntu/workspace/work3/lib/userLib.php:13
+[07-Jul-2017 11:01:26 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/work3/lib/userLib.php on line 45
+[07-Jul-2017 11:01:26 UTC] PHP Stack trace:
+[07-Jul-2017 11:01:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/work3/api/user/loginUser.php:0
+[07-Jul-2017 11:01:51 UTC] PHP Fatal error:  Call to undefined function returnUserDetails() in /home/ubuntu/workspace/work3/lib/userLib.php on line 13
+[07-Jul-2017 11:01:51 UTC] PHP Stack trace:
+[07-Jul-2017 11:01:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/work3/api/user/loginUser.php:0
+[07-Jul-2017 11:01:51 UTC] PHP   2. loginUser() /home/ubuntu/workspace/work3/api/user/loginUser.php:11
+[07-Jul-2017 12:44:10 UTC] PHP Warning:  Illegal offset type in /home/ubuntu/workspace/work3/lib/outputHelper.php on line 22
+[07-Jul-2017 12:44:10 UTC] PHP Stack trace:
+[07-Jul-2017 12:44:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/work3/api/user/loginUser.php:0
+[07-Jul-2017 12:44:10 UTC] PHP   2. echoJSONOutput() /home/ubuntu/workspace/work3/api/user/loginUser.php:12
+[07-Jul-2017 13:00:44 UTC] PHP Fatal error:  Call to undefined function logoutUser() in /home/ubuntu/workspace/work3/lib/userLib.php on line 22
+[07-Jul-2017 13:00:44 UTC] PHP Stack trace:
+[07-Jul-2017 13:00:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/work3/api/user/loginUser.php:0
+[07-Jul-2017 13:00:44 UTC] PHP   2. loginUser() /home/ubuntu/workspace/work3/api/user/loginUser.php:11
+[07-Jul-2017 13:04:21 UTC] PHP Fatal error:  Cannot redeclare loginUser() (previously declared in /home/ubuntu/workspace/work3/api/user/loginUser.php:9) in /home/ubuntu/workspace/work3/lib/userLib.php on line 5
+[07-Jul-2017 13:04:21 UTC] PHP Stack trace:
+[07-Jul-2017 13:04:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/work3/api/user/loginUser.php:0
+[07-Jul-2017 13:10:51 UTC] PHP Fatal error:  Call to undefined function logoutUser() in /home/ubuntu/workspace/work3/lib/userLib.php on line 21
+[07-Jul-2017 13:10:51 UTC] PHP Stack trace:
+[07-Jul-2017 13:10:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/work3/api/user/loginUser.php:0
+[07-Jul-2017 13:10:51 UTC] PHP   2. loginUser() /home/ubuntu/workspace/work3/api/user/loginUser.php:11
+[07-Jul-2017 13:15:24 UTC] PHP Warning:  Illegal string offset 'userCode' in /home/ubuntu/workspace/work3/lib/userLib.php on line 17
+[07-Jul-2017 13:15:24 UTC] PHP Stack trace:
+[07-Jul-2017 13:15:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/work3/api/user/loginUser.php:0
+[07-Jul-2017 13:15:24 UTC] PHP   2. loginUser() /home/ubuntu/workspace/work3/api/user/loginUser.php:11
+[07-Jul-2017 13:19:37 UTC] PHP Fatal error:  Call to undefined function echoJSONOutput() in /home/ubuntu/workspace/work3/api/user/loginUser.php on line 12
+[07-Jul-2017 13:19:37 UTC] PHP Stack trace:
+[07-Jul-2017 13:19:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/work3/api/user/loginUser.php:0
+[07-Jul-2017 13:58:55 UTC] PHP Parse error:  syntax error, unexpected ''sasa;' (T_ENCAPSED_AND_WHITESPACE) in /home/ubuntu/workspace/work3/api/user/loginUser.php on line 13
+[07-Jul-2017 14:24:46 UTC] PHP Warning:  print_r() expects at most 2 parameters, 3 given in /home/ubuntu/workspace/work3/lib/userLib.php on line 17
+[07-Jul-2017 14:24:46 UTC] PHP Stack trace:
+[07-Jul-2017 14:24:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/work3/api/user/loginUser.php:0
+[07-Jul-2017 14:24:46 UTC] PHP   2. loginUser() /home/ubuntu/workspace/work3/api/user/loginUser.php:11
+[07-Jul-2017 14:24:46 UTC] PHP   3. print_r() /home/ubuntu/workspace/work3/lib/userLib.php:17
+[08-Jul-2017 17:42:28 UTC] PHP Fatal error:  Function name must be a string in /home/ubuntu/workspace/work3/lib/userLib.php on line 15
+[08-Jul-2017 17:42:28 UTC] PHP Stack trace:
+[08-Jul-2017 17:42:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/work3/api/user/loginUser.php:0
+[08-Jul-2017 17:42:28 UTC] PHP   2. loginUser() /home/ubuntu/workspace/work3/api/user/loginUser.php:17
+[09-Jul-2017 12:26:55 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/work3/lib/userLib.php on line 11
+[09-Jul-2017 12:26:55 UTC] PHP Stack trace:
+[09-Jul-2017 12:26:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/work3/api/user/loginUser.php:0
+[09-Jul-2017 12:26:55 UTC] PHP   2. loginUser() /home/ubuntu/workspace/work3/api/user/loginUser.php:17
+[09-Jul-2017 12:26:55 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/work3/lib/userLib.php:11
+[09-Jul-2017 12:28:01 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/work3/lib/userLib.php on line 11
+[09-Jul-2017 12:28:01 UTC] PHP Stack trace:
+[09-Jul-2017 12:28:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/work3/api/user/loginUser.php:0
+[09-Jul-2017 12:28:01 UTC] PHP   2. loginUser() /home/ubuntu/workspace/work3/api/user/loginUser.php:17
+[09-Jul-2017 12:28:01 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/work3/lib/userLib.php:11
+[09-Jul-2017 13:38:05 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/work3/api/user/signUpUser.php on line 26
+[10-Jul-2017 16:06:58 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Connection refused in /home/ubuntu/workspace/php/work3/lib/databaseHelper.php on line 6
+[10-Jul-2017 16:06:58 UTC] PHP Stack trace:
+[10-Jul-2017 16:06:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/user/loginUser.php:0
+[10-Jul-2017 16:06:58 UTC] PHP   2. require_once() /home/ubuntu/workspace/php/work3/api/user/loginUser.php:3
+[10-Jul-2017 16:06:58 UTC] PHP   3. databaseConnect() /home/ubuntu/workspace/php/work3/config/general.php:9
+[10-Jul-2017 16:06:58 UTC] PHP   4. mysqli_connect() /home/ubuntu/workspace/php/work3/lib/databaseHelper.php:6
+[10-Jul-2017 16:48:04 UTC] PHP Fatal error:  Call to undefined function mysqli_stmt_get_result() in /home/ubuntu/workspace/php/work3/lib/userLib.php on line 18
+[10-Jul-2017 16:49:11 UTC] PHP Fatal error:  Call to undefined function mysqli_stmt_get_result() in /home/ubuntu/workspace/php/work3/lib/userLib.php on line 18
+[10-Jul-2017 16:49:18 UTC] PHP Fatal error:  Call to undefined function mysqli_stmt_get_result() in /home/ubuntu/workspace/php/work3/lib/userLib.php on line 126
+[10-Jul-2017 16:52:51 UTC] PHP Fatal error:  Call to undefined function mysqli_stmt_get_result() in /home/ubuntu/workspace/php/work3/lib/userLib.php on line 126
+[10-Jul-2017 16:53:58 UTC] PHP Fatal error:  Call to undefined function mysqli_stmt_get_result() in /home/ubuntu/workspace/php/work3/lib/userLib.php on line 126
+[10-Jul-2017 17:12:19 UTC] PHP Fatal error:  Call to undefined function mysqli_stmt_get_result() in /home/ubuntu/workspace/php/work3/lib/userLib.php on line 18
+[10-Jul-2017 17:15:13 UTC] PHP Fatal error:  Call to undefined function mysqli_stmt_get_result() in /home/ubuntu/workspace/php/work3/lib/userLib.php on line 126
+[10-Jul-2017 17:17:28 UTC] PHP Fatal error:  Call to undefined function mysqli_stmt_get_result() in /home/ubuntu/workspace/php/work3/lib/userLib.php on line 126
+[10-Jul-2017 17:20:51 UTC] PHP Fatal error:  Call to undefined function mysqli_stmt_get_result() in /home/ubuntu/workspace/php/work3/lib/userLib.php on line 126
+[10-Jul-2017 17:38:25 UTC] PHP Fatal error:  Call to undefined function mysqli_stmt_get_result() in /home/ubuntu/workspace/php/work3/lib/userLib.php on line 126
+[10-Jul-2017 17:46:17 UTC] PHP Fatal error:  Call to undefined function mysqli_stmt_get_result() in /home/ubuntu/workspace/php/work3/lib/userLib.php on line 126
+[10-Jul-2017 17:48:50 UTC] PHP Fatal error:  Call to undefined function mysqli_stmt_get_result() in /home/ubuntu/workspace/php/work3/lib/userLib.php on line 125
+[10-Jul-2017 18:07:39 UTC] PHP Fatal error:  Call to undefined function mysqli_stmt_get_result() in /home/ubuntu/workspace/php/work3/lib/userLib.php on line 125
+[15-Jul-2017 18:08:38 UTC] PHP Warning:  mysqli_stmt_execute(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 93
+[15-Jul-2017 18:08:38 UTC] PHP Stack trace:
+[15-Jul-2017 18:08:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:0
+[15-Jul-2017 18:08:38 UTC] PHP   2. getAllProducts() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:9
+[15-Jul-2017 18:08:38 UTC] PHP   3. mysqli_stmt_execute() /home/ubuntu/workspace/php/work3/lib/productsLib.php:93
+[15-Jul-2017 18:08:38 UTC] PHP Warning:  mysqli_stmt_get_result(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 95
+[15-Jul-2017 18:08:38 UTC] PHP Stack trace:
+[15-Jul-2017 18:08:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:0
+[15-Jul-2017 18:08:38 UTC] PHP   2. getAllProducts() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:9
+[15-Jul-2017 18:08:38 UTC] PHP   3. mysqli_stmt_get_result() /home/ubuntu/workspace/php/work3/lib/productsLib.php:95
+[15-Jul-2017 18:08:38 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 97
+[15-Jul-2017 18:08:38 UTC] PHP Stack trace:
+[15-Jul-2017 18:08:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:0
+[15-Jul-2017 18:08:38 UTC] PHP   2. getAllProducts() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:9
+[15-Jul-2017 18:08:38 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/php/work3/lib/productsLib.php:97
+[15-Jul-2017 18:09:16 UTC] PHP Warning:  mysqli_stmt_execute(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 93
+[15-Jul-2017 18:09:16 UTC] PHP Stack trace:
+[15-Jul-2017 18:09:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:0
+[15-Jul-2017 18:09:16 UTC] PHP   2. getAllProducts() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:9
+[15-Jul-2017 18:09:16 UTC] PHP   3. mysqli_stmt_execute() /home/ubuntu/workspace/php/work3/lib/productsLib.php:93
+[15-Jul-2017 18:09:16 UTC] PHP Warning:  mysqli_stmt_get_result(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 95
+[15-Jul-2017 18:09:16 UTC] PHP Stack trace:
+[15-Jul-2017 18:09:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:0
+[15-Jul-2017 18:09:16 UTC] PHP   2. getAllProducts() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:9
+[15-Jul-2017 18:09:16 UTC] PHP   3. mysqli_stmt_get_result() /home/ubuntu/workspace/php/work3/lib/productsLib.php:95
+[15-Jul-2017 18:09:16 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 97
+[15-Jul-2017 18:09:16 UTC] PHP Stack trace:
+[15-Jul-2017 18:09:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:0
+[15-Jul-2017 18:09:16 UTC] PHP   2. getAllProducts() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:9
+[15-Jul-2017 18:09:16 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/php/work3/lib/productsLib.php:97
+[15-Jul-2017 18:10:01 UTC] PHP Warning:  mysqli_stmt_execute(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 93
+[15-Jul-2017 18:10:01 UTC] PHP Stack trace:
+[15-Jul-2017 18:10:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:0
+[15-Jul-2017 18:10:01 UTC] PHP   2. getAllProducts() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:9
+[15-Jul-2017 18:10:01 UTC] PHP   3. mysqli_stmt_execute() /home/ubuntu/workspace/php/work3/lib/productsLib.php:93
+[15-Jul-2017 18:10:01 UTC] PHP Warning:  mysqli_stmt_get_result(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 95
+[15-Jul-2017 18:10:01 UTC] PHP Stack trace:
+[15-Jul-2017 18:10:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:0
+[15-Jul-2017 18:10:01 UTC] PHP   2. getAllProducts() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:9
+[15-Jul-2017 18:10:01 UTC] PHP   3. mysqli_stmt_get_result() /home/ubuntu/workspace/php/work3/lib/productsLib.php:95
+[15-Jul-2017 18:10:01 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 97
+[15-Jul-2017 18:10:01 UTC] PHP Stack trace:
+[15-Jul-2017 18:10:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:0
+[15-Jul-2017 18:10:01 UTC] PHP   2. getAllProducts() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:9
+[15-Jul-2017 18:10:01 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/php/work3/lib/productsLib.php:97
+[15-Jul-2017 18:10:36 UTC] PHP Warning:  mysqli_stmt_execute(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 93
+[15-Jul-2017 18:10:36 UTC] PHP Stack trace:
+[15-Jul-2017 18:10:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:0
+[15-Jul-2017 18:10:36 UTC] PHP   2. getAllProducts() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:9
+[15-Jul-2017 18:10:36 UTC] PHP   3. mysqli_stmt_execute() /home/ubuntu/workspace/php/work3/lib/productsLib.php:93
+[15-Jul-2017 18:10:36 UTC] PHP Warning:  mysqli_stmt_get_result(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 95
+[15-Jul-2017 18:10:36 UTC] PHP Stack trace:
+[15-Jul-2017 18:10:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:0
+[15-Jul-2017 18:10:36 UTC] PHP   2. getAllProducts() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:9
+[15-Jul-2017 18:10:36 UTC] PHP   3. mysqli_stmt_get_result() /home/ubuntu/workspace/php/work3/lib/productsLib.php:95
+[15-Jul-2017 18:10:36 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 97
+[15-Jul-2017 18:10:36 UTC] PHP Stack trace:
+[15-Jul-2017 18:10:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:0
+[15-Jul-2017 18:10:36 UTC] PHP   2. getAllProducts() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:9
+[15-Jul-2017 18:10:36 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/php/work3/lib/productsLib.php:97
+[15-Jul-2017 18:13:33 UTC] PHP Warning:  mysqli_stmt_execute(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 93
+[15-Jul-2017 18:13:33 UTC] PHP Stack trace:
+[15-Jul-2017 18:13:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:0
+[15-Jul-2017 18:13:33 UTC] PHP   2. getAllProducts() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:9
+[15-Jul-2017 18:13:33 UTC] PHP   3. mysqli_stmt_execute() /home/ubuntu/workspace/php/work3/lib/productsLib.php:93
+[15-Jul-2017 18:13:33 UTC] PHP Warning:  mysqli_stmt_get_result(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 95
+[15-Jul-2017 18:13:33 UTC] PHP Stack trace:
+[15-Jul-2017 18:13:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:0
+[15-Jul-2017 18:13:33 UTC] PHP   2. getAllProducts() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:9
+[15-Jul-2017 18:13:33 UTC] PHP   3. mysqli_stmt_get_result() /home/ubuntu/workspace/php/work3/lib/productsLib.php:95
+[15-Jul-2017 18:13:33 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 97
+[15-Jul-2017 18:13:33 UTC] PHP Stack trace:
+[15-Jul-2017 18:13:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:0
+[15-Jul-2017 18:13:33 UTC] PHP   2. getAllProducts() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:9
+[15-Jul-2017 18:13:33 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/php/work3/lib/productsLib.php:97
+[15-Jul-2017 18:13:35 UTC] PHP Warning:  mysqli_stmt_execute(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 93
+[15-Jul-2017 18:13:35 UTC] PHP Stack trace:
+[15-Jul-2017 18:13:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:0
+[15-Jul-2017 18:13:35 UTC] PHP   2. getAllProducts() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:9
+[15-Jul-2017 18:13:35 UTC] PHP   3. mysqli_stmt_execute() /home/ubuntu/workspace/php/work3/lib/productsLib.php:93
+[15-Jul-2017 18:13:35 UTC] PHP Warning:  mysqli_stmt_get_result(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 95
+[15-Jul-2017 18:13:35 UTC] PHP Stack trace:
+[15-Jul-2017 18:13:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:0
+[15-Jul-2017 18:13:35 UTC] PHP   2. getAllProducts() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:9
+[15-Jul-2017 18:13:35 UTC] PHP   3. mysqli_stmt_get_result() /home/ubuntu/workspace/php/work3/lib/productsLib.php:95
+[15-Jul-2017 18:13:35 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 97
+[15-Jul-2017 18:13:35 UTC] PHP Stack trace:
+[15-Jul-2017 18:13:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:0
+[15-Jul-2017 18:13:35 UTC] PHP   2. getAllProducts() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:9
+[15-Jul-2017 18:13:35 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/php/work3/lib/productsLib.php:97
+[15-Jul-2017 18:14:00 UTC] PHP Warning:  mysqli_stmt_execute(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 93
+[15-Jul-2017 18:14:00 UTC] PHP Stack trace:
+[15-Jul-2017 18:14:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:0
+[15-Jul-2017 18:14:00 UTC] PHP   2. getAllProducts() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:9
+[15-Jul-2017 18:14:00 UTC] PHP   3. mysqli_stmt_execute() /home/ubuntu/workspace/php/work3/lib/productsLib.php:93
+[15-Jul-2017 18:14:00 UTC] PHP Warning:  mysqli_stmt_get_result(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 95
+[15-Jul-2017 18:14:00 UTC] PHP Stack trace:
+[15-Jul-2017 18:14:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:0
+[15-Jul-2017 18:14:00 UTC] PHP   2. getAllProducts() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:9
+[15-Jul-2017 18:14:00 UTC] PHP   3. mysqli_stmt_get_result() /home/ubuntu/workspace/php/work3/lib/productsLib.php:95
+[15-Jul-2017 18:14:00 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 97
+[15-Jul-2017 18:14:00 UTC] PHP Stack trace:
+[15-Jul-2017 18:14:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:0
+[15-Jul-2017 18:14:00 UTC] PHP   2. getAllProducts() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:9
+[15-Jul-2017 18:14:00 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/php/work3/lib/productsLib.php:97
+[15-Jul-2017 18:17:01 UTC] PHP Fatal error:  Call to undefined function getAllProducts() in /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php on line 9
+[15-Jul-2017 18:17:01 UTC] PHP Stack trace:
+[15-Jul-2017 18:17:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:0
+[15-Jul-2017 18:21:06 UTC] PHP Fatal error:  Call to undefined function getAllProducts() in /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php on line 9
+[15-Jul-2017 18:21:06 UTC] PHP Stack trace:
+[15-Jul-2017 18:21:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:0
+[15-Jul-2017 18:21:37 UTC] PHP Fatal error:  Call to undefined function getAllProducts() in /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php on line 9
+[15-Jul-2017 18:21:37 UTC] PHP Stack trace:
+[15-Jul-2017 18:21:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/getAllProducts.php:0
+[16-Jul-2017 09:45:44 UTC] PHP Warning:  mysqli_stmt_bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 72
+[16-Jul-2017 09:45:44 UTC] PHP Stack trace:
+[16-Jul-2017 09:45:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/getProduct.php:0
+[16-Jul-2017 09:45:44 UTC] PHP   2. getProduct() /home/ubuntu/workspace/php/work3/api/products/getProduct.php:13
+[16-Jul-2017 09:45:44 UTC] PHP   3. mysqli_stmt_bind_param() /home/ubuntu/workspace/php/work3/lib/productsLib.php:72
+[16-Jul-2017 10:44:48 UTC] PHP Warning:  Missing argument 1 for getProduct(), called in /home/ubuntu/workspace/php/work3/api/products/getProduct.php on line 30 and defined in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 84
+[16-Jul-2017 10:44:48 UTC] PHP Stack trace:
+[16-Jul-2017 10:44:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/getProduct.php:0
+[16-Jul-2017 10:44:48 UTC] PHP   2. getProduct() /home/ubuntu/workspace/php/work3/api/products/getProduct.php:30
+[16-Jul-2017 10:45:00 UTC] PHP Warning:  Missing argument 1 for getProduct(), called in /home/ubuntu/workspace/php/work3/api/products/getProduct.php on line 30 and defined in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 84
+[16-Jul-2017 10:45:00 UTC] PHP Stack trace:
+[16-Jul-2017 10:45:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/getProduct.php:0
+[16-Jul-2017 10:45:00 UTC] PHP   2. getProduct() /home/ubuntu/workspace/php/work3/api/products/getProduct.php:30
+[16-Jul-2017 10:45:54 UTC] PHP Warning:  Missing argument 1 for getProduct(), called in /home/ubuntu/workspace/php/work3/api/products/getProduct.php on line 30 and defined in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 84
+[16-Jul-2017 10:45:54 UTC] PHP Stack trace:
+[16-Jul-2017 10:45:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/getProduct.php:0
+[16-Jul-2017 10:45:54 UTC] PHP   2. getProduct() /home/ubuntu/workspace/php/work3/api/products/getProduct.php:30
+[16-Jul-2017 10:46:35 UTC] PHP Warning:  Missing argument 1 for getProduct(), called in /home/ubuntu/workspace/php/work3/api/products/getProduct.php on line 30 and defined in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 84
+[16-Jul-2017 10:46:35 UTC] PHP Stack trace:
+[16-Jul-2017 10:46:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/getProduct.php:0
+[16-Jul-2017 10:46:35 UTC] PHP   2. getProduct() /home/ubuntu/workspace/php/work3/api/products/getProduct.php:30
+[16-Jul-2017 10:46:39 UTC] PHP Warning:  Missing argument 1 for getProduct(), called in /home/ubuntu/workspace/php/work3/api/products/getProduct.php on line 30 and defined in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 84
+[16-Jul-2017 10:46:39 UTC] PHP Stack trace:
+[16-Jul-2017 10:46:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/getProduct.php:0
+[16-Jul-2017 10:46:39 UTC] PHP   2. getProduct() /home/ubuntu/workspace/php/work3/api/products/getProduct.php:30
+[16-Jul-2017 10:49:03 UTC] PHP Warning:  Missing argument 1 for getProduct(), called in /home/ubuntu/workspace/php/work3/api/products/getProduct.php on line 30 and defined in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 84
+[16-Jul-2017 10:49:03 UTC] PHP Stack trace:
+[16-Jul-2017 10:49:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/getProduct.php:0
+[16-Jul-2017 10:49:03 UTC] PHP   2. getProduct() /home/ubuntu/workspace/php/work3/api/products/getProduct.php:30
+[16-Jul-2017 10:49:17 UTC] PHP Warning:  Missing argument 1 for getProduct(), called in /home/ubuntu/workspace/php/work3/api/products/getProduct.php on line 30 and defined in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 84
+[16-Jul-2017 10:49:17 UTC] PHP Stack trace:
+[16-Jul-2017 10:49:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/getProduct.php:0
+[16-Jul-2017 10:49:17 UTC] PHP   2. getProduct() /home/ubuntu/workspace/php/work3/api/products/getProduct.php:30
+[16-Jul-2017 13:04:13 UTC] PHP Warning:  Missing argument 1 for getProduct(), called in /home/ubuntu/workspace/php/work3/api/products/getProduct.php on line 30 and defined in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 84
+[16-Jul-2017 13:04:13 UTC] PHP Stack trace:
+[16-Jul-2017 13:04:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/getProduct.php:0
+[16-Jul-2017 13:04:13 UTC] PHP   2. getProduct() /home/ubuntu/workspace/php/work3/api/products/getProduct.php:30
+[16-Jul-2017 13:25:11 UTC] PHP Warning:  Missing argument 1 for getProduct(), called in /home/ubuntu/workspace/php/work3/api/products/getProduct.php on line 13 and defined in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 63
+[16-Jul-2017 13:25:11 UTC] PHP Stack trace:
+[16-Jul-2017 13:25:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/getProduct.php:0
+[16-Jul-2017 13:25:11 UTC] PHP   2. getProduct() /home/ubuntu/workspace/php/work3/api/products/getProduct.php:13
+[16-Jul-2017 14:04:42 UTC] PHP Warning:  Illegal string offset 'file' in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 106
+[16-Jul-2017 14:04:42 UTC] PHP Stack trace:
+[16-Jul-2017 14:04:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[16-Jul-2017 14:04:42 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[16-Jul-2017 14:04:42 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 106
+[16-Jul-2017 14:04:42 UTC] PHP Stack trace:
+[16-Jul-2017 14:04:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[16-Jul-2017 14:04:42 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[16-Jul-2017 14:04:42 UTC] PHP Warning:  Illegal string offset 'file' in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 119
+[16-Jul-2017 14:04:42 UTC] PHP Stack trace:
+[16-Jul-2017 14:04:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[16-Jul-2017 14:04:42 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[16-Jul-2017 14:04:42 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 119
+[16-Jul-2017 14:04:42 UTC] PHP Stack trace:
+[16-Jul-2017 14:04:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[16-Jul-2017 14:04:42 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[16-Jul-2017 14:04:42 UTC] PHP Warning:  copy(g): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 119
+[16-Jul-2017 14:04:42 UTC] PHP Stack trace:
+[16-Jul-2017 14:04:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[16-Jul-2017 14:04:42 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[16-Jul-2017 14:04:42 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:119
+[16-Jul-2017 14:05:29 UTC] PHP Warning:  Illegal string offset 'file' in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 106
+[16-Jul-2017 14:05:29 UTC] PHP Stack trace:
+[16-Jul-2017 14:05:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[16-Jul-2017 14:05:29 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[16-Jul-2017 14:05:29 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 106
+[16-Jul-2017 14:05:29 UTC] PHP Stack trace:
+[16-Jul-2017 14:05:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[16-Jul-2017 14:05:29 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[16-Jul-2017 14:05:29 UTC] PHP Warning:  Illegal string offset 'file' in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 119
+[16-Jul-2017 14:05:29 UTC] PHP Stack trace:
+[16-Jul-2017 14:05:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[16-Jul-2017 14:05:29 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[16-Jul-2017 14:05:29 UTC] PHP Warning:  Illegal string offset 'name' in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 119
+[16-Jul-2017 14:05:29 UTC] PHP Stack trace:
+[16-Jul-2017 14:05:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[16-Jul-2017 14:05:29 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[16-Jul-2017 14:05:29 UTC] PHP Warning:  copy(g): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 119
+[16-Jul-2017 14:05:29 UTC] PHP Stack trace:
+[16-Jul-2017 14:05:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[16-Jul-2017 14:05:29 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[16-Jul-2017 14:05:29 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:119
+[16-Jul-2017 14:26:39 UTC] PHP Warning:  copy(gallfeat4.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 119
+[16-Jul-2017 14:26:39 UTC] PHP Stack trace:
+[16-Jul-2017 14:26:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[16-Jul-2017 14:26:39 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[16-Jul-2017 14:26:39 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:119
+[16-Jul-2017 14:29:05 UTC] PHP Warning:  copy(gallfeat5.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 119
+[16-Jul-2017 14:29:05 UTC] PHP Stack trace:
+[16-Jul-2017 14:29:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[16-Jul-2017 14:29:05 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[16-Jul-2017 14:29:05 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:119
+[16-Jul-2017 14:29:51 UTC] PHP Warning:  copy(gallfeat7.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 119
+[16-Jul-2017 14:29:51 UTC] PHP Stack trace:
+[16-Jul-2017 14:29:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[16-Jul-2017 14:29:51 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[16-Jul-2017 14:29:51 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:119
+[16-Jul-2017 14:31:36 UTC] PHP Warning:  copy(gallfeat7.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 119
+[16-Jul-2017 14:31:36 UTC] PHP Stack trace:
+[16-Jul-2017 14:31:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[16-Jul-2017 14:31:36 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[16-Jul-2017 14:31:36 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:119
+[16-Jul-2017 14:33:58 UTC] PHP Warning:  copy(gallfeat11.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 119
+[16-Jul-2017 14:33:58 UTC] PHP Stack trace:
+[16-Jul-2017 14:33:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[16-Jul-2017 14:33:58 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[16-Jul-2017 14:33:58 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:119
+[16-Jul-2017 14:41:32 UTC] PHP Warning:  copy(gallfeat7.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 119
+[16-Jul-2017 14:41:32 UTC] PHP Stack trace:
+[16-Jul-2017 14:41:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[16-Jul-2017 14:41:32 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[16-Jul-2017 14:41:32 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:119
+[16-Jul-2017 14:42:45 UTC] PHP Warning:  copy(gallfeat11.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 119
+[16-Jul-2017 14:42:45 UTC] PHP Stack trace:
+[16-Jul-2017 14:42:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[16-Jul-2017 14:42:45 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[16-Jul-2017 14:42:45 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:119
+[16-Jul-2017 14:44:12 UTC] PHP Warning:  copy(gallfeat12.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 119
+[16-Jul-2017 14:44:12 UTC] PHP Stack trace:
+[16-Jul-2017 14:44:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[16-Jul-2017 14:44:12 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[16-Jul-2017 14:44:12 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:119
+[16-Jul-2017 14:55:05 UTC] PHP Warning:  copy() expects at least 2 parameters, 1 given in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 122
+[16-Jul-2017 14:55:05 UTC] PHP Stack trace:
+[16-Jul-2017 14:55:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[16-Jul-2017 14:55:05 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[16-Jul-2017 14:55:05 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:122
+[16-Jul-2017 14:55:29 UTC] PHP Warning:  copy(gallfeat2.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 122
+[16-Jul-2017 14:55:29 UTC] PHP Stack trace:
+[16-Jul-2017 14:55:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[16-Jul-2017 14:55:29 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[16-Jul-2017 14:55:29 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:122
+[16-Jul-2017 14:57:20 UTC] PHP Warning:  copy(gallfeat3.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 122
+[16-Jul-2017 14:57:20 UTC] PHP Stack trace:
+[16-Jul-2017 14:57:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[16-Jul-2017 14:57:20 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[16-Jul-2017 14:57:20 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:122
+[16-Jul-2017 15:01:07 UTC] PHP Warning:  move_uploaded_file(/workspace/php/work3/api/products/images/gallfeat6.jpg15.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 122
+[16-Jul-2017 15:01:07 UTC] PHP Stack trace:
+[16-Jul-2017 15:01:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[16-Jul-2017 15:01:07 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[16-Jul-2017 15:01:07 UTC] PHP   3. move_uploaded_file() /home/ubuntu/workspace/php/work3/lib/productsLib.php:122
+[16-Jul-2017 15:01:07 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpx8ww8P' to '/workspace/php/work3/api/products/images/gallfeat6.jpg15.jpg' in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 122
+[16-Jul-2017 15:01:07 UTC] PHP Stack trace:
+[16-Jul-2017 15:01:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[16-Jul-2017 15:01:07 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[16-Jul-2017 15:01:07 UTC] PHP   3. move_uploaded_file() /home/ubuntu/workspace/php/work3/lib/productsLib.php:122
+[16-Jul-2017 15:03:13 UTC] PHP Warning:  move_uploaded_file(/workspace/php/work3/api/products/images/phpiWXW8P17.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 122
+[16-Jul-2017 15:03:13 UTC] PHP Stack trace:
+[16-Jul-2017 15:03:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[16-Jul-2017 15:03:13 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[16-Jul-2017 15:03:13 UTC] PHP   3. move_uploaded_file() /home/ubuntu/workspace/php/work3/lib/productsLib.php:122
+[16-Jul-2017 15:03:13 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpiWXW8P' to '/workspace/php/work3/api/products/images/phpiWXW8P17.jpg' in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 122
+[16-Jul-2017 15:03:13 UTC] PHP Stack trace:
+[16-Jul-2017 15:03:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[16-Jul-2017 15:03:13 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[16-Jul-2017 15:03:13 UTC] PHP   3. move_uploaded_file() /home/ubuntu/workspace/php/work3/lib/productsLib.php:122
+[16-Jul-2017 15:04:11 UTC] PHP Warning:  move_uploaded_file(/php/work3/api/products/images/phpJlMWuv18.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 122
+[16-Jul-2017 15:04:11 UTC] PHP Stack trace:
+[16-Jul-2017 15:04:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[16-Jul-2017 15:04:11 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[16-Jul-2017 15:04:11 UTC] PHP   3. move_uploaded_file() /home/ubuntu/workspace/php/work3/lib/productsLib.php:122
+[16-Jul-2017 15:04:11 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpJlMWuv' to '/php/work3/api/products/images/phpJlMWuv18.jpg' in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 122
+[16-Jul-2017 15:04:11 UTC] PHP Stack trace:
+[16-Jul-2017 15:04:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[16-Jul-2017 15:04:11 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[16-Jul-2017 15:04:11 UTC] PHP   3. move_uploaded_file() /home/ubuntu/workspace/php/work3/lib/productsLib.php:122
+[16-Jul-2017 15:21:47 UTC] PHP Warning:  copy(gallfeat2.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 122
+[16-Jul-2017 15:21:47 UTC] PHP Stack trace:
+[16-Jul-2017 15:21:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[16-Jul-2017 15:21:47 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[16-Jul-2017 15:21:47 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:122
+[16-Jul-2017 15:33:34 UTC] PHP Fatal error:  Call to undefined function deleteCategory() in /home/ubuntu/workspace/php/work3/api/products/deleteProduct.php on line 15
+[16-Jul-2017 15:33:34 UTC] PHP Stack trace:
+[16-Jul-2017 15:33:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/deleteProduct.php:0
+[16-Jul-2017 15:34:45 UTC] PHP Fatal error:  Call to undefined function deleteCategory() in /home/ubuntu/workspace/php/work3/api/products/deleteProduct.php on line 15
+[16-Jul-2017 15:34:45 UTC] PHP Stack trace:
+[16-Jul-2017 15:34:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/deleteProduct.php:0
+[18-Jul-2017 15:20:09 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ubuntu/workspace/php/work3/api/user/getLoggedUserDetails.php on line 10
+[18-Jul-2017 15:20:09 UTC] PHP Stack trace:
+[18-Jul-2017 15:20:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/user/getLoggedUserDetails.php:0
+[18-Jul-2017 15:23:26 UTC] PHP Warning:  json_encode() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/php/work3/lib/outputHelper.php on line 24
+[18-Jul-2017 15:23:26 UTC] PHP Stack trace:
+[18-Jul-2017 15:23:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/user/getLoggedUserDetails.php:0
+[18-Jul-2017 15:23:26 UTC] PHP   2. echoJSONOutput() /home/ubuntu/workspace/php/work3/api/user/getLoggedUserDetails.php:10
+[18-Jul-2017 15:23:26 UTC] PHP   3. json_encode() /home/ubuntu/workspace/php/work3/lib/outputHelper.php:24
+[18-Jul-2017 15:26:58 UTC] PHP Fatal error:  Call to undefined function getOrdersHistory() in /home/ubuntu/workspace/php/work3/api/cart/getOrdersHistory.php on line 9
+[18-Jul-2017 15:26:58 UTC] PHP Stack trace:
+[18-Jul-2017 15:26:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/cart/getOrdersHistory.php:0
+[18-Jul-2017 15:46:46 UTC] PHP Warning:  Missing argument 1 for getOrdersHistory(), called in /home/ubuntu/workspace/php/work3/api/cart/getOrdersHistory.php on line 9 and defined in /home/ubuntu/workspace/php/work3/lib/cartLib.php on line 114
+[18-Jul-2017 15:46:46 UTC] PHP Stack trace:
+[18-Jul-2017 15:46:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/cart/getOrdersHistory.php:0
+[18-Jul-2017 15:46:46 UTC] PHP   2. getOrdersHistory() /home/ubuntu/workspace/php/work3/api/cart/getOrdersHistory.php:9
+[18-Jul-2017 15:47:27 UTC] PHP Fatal error:  Cannot re-assign auto-global variable _SESSION in /home/ubuntu/workspace/php/work3/lib/cartLib.php on line 114
+[18-Jul-2017 15:47:27 UTC] PHP Stack trace:
+[18-Jul-2017 15:47:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/cart/getOrdersHistory.php:0
+[18-Jul-2017 15:52:21 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/php/work3/api/cart/getOrderDetail.php on line 13
+[18-Jul-2017 19:35:22 UTC] PHP Warning:  Missing argument 3 for updateCategory(), called in /home/ubuntu/workspace/php/work3/api/categories/updateCategory.php on line 15 and defined in /home/ubuntu/workspace/php/work3/lib/categoriesLib.php on line 43
+[18-Jul-2017 19:35:22 UTC] PHP Stack trace:
+[18-Jul-2017 19:35:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/categories/updateCategory.php:0
+[18-Jul-2017 19:35:22 UTC] PHP   2. updateCategory() /home/ubuntu/workspace/php/work3/api/categories/updateCategory.php:15
+[18-Jul-2017 19:35:22 UTC] PHP Warning:  mysqli_stmt_bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/ubuntu/workspace/php/work3/lib/categoriesLib.php on line 55
+[18-Jul-2017 19:35:22 UTC] PHP Stack trace:
+[18-Jul-2017 19:35:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/categories/updateCategory.php:0
+[18-Jul-2017 19:35:22 UTC] PHP   2. updateCategory() /home/ubuntu/workspace/php/work3/api/categories/updateCategory.php:15
+[18-Jul-2017 19:35:22 UTC] PHP   3. mysqli_stmt_bind_param() /home/ubuntu/workspace/php/work3/lib/categoriesLib.php:55
+[18-Jul-2017 19:35:47 UTC] PHP Warning:  mysqli_stmt_bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/ubuntu/workspace/php/work3/lib/categoriesLib.php on line 55
+[18-Jul-2017 19:35:47 UTC] PHP Stack trace:
+[18-Jul-2017 19:35:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/categories/updateCategory.php:0
+[18-Jul-2017 19:35:47 UTC] PHP   2. updateCategory() /home/ubuntu/workspace/php/work3/api/categories/updateCategory.php:15
+[18-Jul-2017 19:35:47 UTC] PHP   3. mysqli_stmt_bind_param() /home/ubuntu/workspace/php/work3/lib/categoriesLib.php:55
+[18-Jul-2017 19:52:45 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/php/work3/api/curriencies/../../lib/currienciesLib.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/api/curriencies/addCurrency.php on line 4
+[18-Jul-2017 19:52:45 UTC] PHP Stack trace:
+[18-Jul-2017 19:52:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/curriencies/addCurrency.php:0
+[18-Jul-2017 19:52:45 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/php/work3/api/curriencies/../../lib/currienciesLib.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/php/work3/api/curriencies/addCurrency.php on line 4
+[18-Jul-2017 19:52:45 UTC] PHP Stack trace:
+[18-Jul-2017 19:52:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/curriencies/addCurrency.php:0
+[18-Jul-2017 19:53:41 UTC] PHP Warning:  mysqli_stmt_execute(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/php/work3/lib/currenciesLib.php on line 18
+[18-Jul-2017 19:53:41 UTC] PHP Stack trace:
+[18-Jul-2017 19:53:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/curriencies/addCurrency.php:0
+[18-Jul-2017 19:53:41 UTC] PHP   2. addCurrency() /home/ubuntu/workspace/php/work3/api/curriencies/addCurrency.php:15
+[18-Jul-2017 19:53:41 UTC] PHP   3. mysqli_stmt_execute() /home/ubuntu/workspace/php/work3/lib/currenciesLib.php:18
+[18-Jul-2017 19:56:06 UTC] PHP Warning:  mysqli_stmt_execute(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/php/work3/lib/currenciesLib.php on line 18
+[18-Jul-2017 19:56:06 UTC] PHP Stack trace:
+[18-Jul-2017 19:56:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/curriencies/addCurrency.php:0
+[18-Jul-2017 19:56:06 UTC] PHP   2. addCurrency() /home/ubuntu/workspace/php/work3/api/curriencies/addCurrency.php:15
+[18-Jul-2017 19:56:06 UTC] PHP   3. mysqli_stmt_execute() /home/ubuntu/workspace/php/work3/lib/currenciesLib.php:18
+[18-Jul-2017 19:59:55 UTC] PHP Warning:  mysqli_stmt_execute(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/php/work3/lib/currenciesLib.php on line 37
+[18-Jul-2017 19:59:55 UTC] PHP Stack trace:
+[18-Jul-2017 19:59:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/curriencies/deleteCurrency.php:0
+[18-Jul-2017 19:59:55 UTC] PHP   2. deleteCurrency() /home/ubuntu/workspace/php/work3/api/curriencies/deleteCurrency.php:15
+[18-Jul-2017 19:59:55 UTC] PHP   3. mysqli_stmt_execute() /home/ubuntu/workspace/php/work3/lib/currenciesLib.php:37
+[18-Jul-2017 20:02:09 UTC] PHP Warning:  mysqli_stmt_execute(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/php/work3/lib/currenciesLib.php on line 75
+[18-Jul-2017 20:02:09 UTC] PHP Stack trace:
+[18-Jul-2017 20:02:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/curriencies/getSellingCurrencies.php:0
+[18-Jul-2017 20:02:09 UTC] PHP   2. getSellingCurrencies() /home/ubuntu/workspace/php/work3/api/curriencies/getSellingCurrencies.php:13
+[18-Jul-2017 20:02:09 UTC] PHP   3. mysqli_stmt_execute() /home/ubuntu/workspace/php/work3/lib/currenciesLib.php:75
+[18-Jul-2017 20:03:20 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/php/work3/lib/currenciesLib.php on line 76
+[18-Jul-2017 20:03:20 UTC] PHP Stack trace:
+[18-Jul-2017 20:03:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/curriencies/getSellingCurrencies.php:0
+[18-Jul-2017 20:03:20 UTC] PHP   2. getSellingCurrencies() /home/ubuntu/workspace/php/work3/api/curriencies/getSellingCurrencies.php:13
+[18-Jul-2017 20:03:20 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/php/work3/lib/currenciesLib.php:76
+[18-Jul-2017 20:08:22 UTC] PHP Fatal error:  Call to undefined function updateCategory() in /home/ubuntu/workspace/php/work3/api/curriencies/updateCurrency.php on line 15
+[18-Jul-2017 20:08:22 UTC] PHP Stack trace:
+[18-Jul-2017 20:08:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/curriencies/updateCurrency.php:0
+[18-Jul-2017 20:09:21 UTC] PHP Fatal error:  Call to undefined function updateCategory() in /home/ubuntu/workspace/php/work3/api/curriencies/updateCurrency.php on line 15
+[18-Jul-2017 20:09:21 UTC] PHP Stack trace:
+[18-Jul-2017 20:09:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/curriencies/updateCurrency.php:0
+[19-Jul-2017 16:46:56 UTC] PHP Warning:  mysqli_stmt_bind_param(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/php/work3/lib/currenciesLib.php on line 114
+[19-Jul-2017 16:46:56 UTC] PHP Stack trace:
+[19-Jul-2017 16:46:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/cart/addToCart.php:0
+[19-Jul-2017 16:46:56 UTC] PHP   2. addToCart() /home/ubuntu/workspace/php/work3/api/cart/addToCart.php:15
+[19-Jul-2017 16:46:56 UTC] PHP   3. getProductCartData() /home/ubuntu/workspace/php/work3/lib/cartLib.php:9
+[19-Jul-2017 16:46:56 UTC] PHP   4. getConversionValue() /home/ubuntu/workspace/php/work3/lib/cartLib.php:16
+[19-Jul-2017 16:46:56 UTC] PHP   5. mysqli_stmt_bind_param() /home/ubuntu/workspace/php/work3/lib/currenciesLib.php:114
+[19-Jul-2017 16:46:56 UTC] PHP Warning:  mysqli_stmt_execute(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/php/work3/lib/currenciesLib.php on line 117
+[19-Jul-2017 16:46:56 UTC] PHP Stack trace:
+[19-Jul-2017 16:46:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/cart/addToCart.php:0
+[19-Jul-2017 16:46:56 UTC] PHP   2. addToCart() /home/ubuntu/workspace/php/work3/api/cart/addToCart.php:15
+[19-Jul-2017 16:46:56 UTC] PHP   3. getProductCartData() /home/ubuntu/workspace/php/work3/lib/cartLib.php:9
+[19-Jul-2017 16:46:56 UTC] PHP   4. getConversionValue() /home/ubuntu/workspace/php/work3/lib/cartLib.php:16
+[19-Jul-2017 16:46:56 UTC] PHP   5. mysqli_stmt_execute() /home/ubuntu/workspace/php/work3/lib/currenciesLib.php:117
+[19-Jul-2017 16:48:07 UTC] PHP Warning:  mysqli_stmt_bind_param(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/php/work3/lib/currenciesLib.php on line 113
+[19-Jul-2017 16:48:07 UTC] PHP Stack trace:
+[19-Jul-2017 16:48:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/cart/addToCart.php:0
+[19-Jul-2017 16:48:07 UTC] PHP   2. addToCart() /home/ubuntu/workspace/php/work3/api/cart/addToCart.php:15
+[19-Jul-2017 16:48:07 UTC] PHP   3. getProductCartData() /home/ubuntu/workspace/php/work3/lib/cartLib.php:9
+[19-Jul-2017 16:48:07 UTC] PHP   4. getConversionValue() /home/ubuntu/workspace/php/work3/lib/cartLib.php:16
+[19-Jul-2017 16:48:07 UTC] PHP   5. mysqli_stmt_bind_param() /home/ubuntu/workspace/php/work3/lib/currenciesLib.php:113
+[19-Jul-2017 16:48:07 UTC] PHP Warning:  mysqli_stmt_execute(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/php/work3/lib/currenciesLib.php on line 115
+[19-Jul-2017 16:48:07 UTC] PHP Stack trace:
+[19-Jul-2017 16:48:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/cart/addToCart.php:0
+[19-Jul-2017 16:48:07 UTC] PHP   2. addToCart() /home/ubuntu/workspace/php/work3/api/cart/addToCart.php:15
+[19-Jul-2017 16:48:07 UTC] PHP   3. getProductCartData() /home/ubuntu/workspace/php/work3/lib/cartLib.php:9
+[19-Jul-2017 16:48:07 UTC] PHP   4. getConversionValue() /home/ubuntu/workspace/php/work3/lib/cartLib.php:16
+[19-Jul-2017 16:48:07 UTC] PHP   5. mysqli_stmt_execute() /home/ubuntu/workspace/php/work3/lib/currenciesLib.php:115
+[24-Jul-2017 07:01:40 UTC] PHP Warning:  copy(Products.png): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 144
+[24-Jul-2017 07:01:40 UTC] PHP Stack trace:
+[24-Jul-2017 07:01:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 07:01:40 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 07:01:40 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:144
+[24-Jul-2017 07:03:51 UTC] PHP Warning:  copy(Products.png): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 144
+[24-Jul-2017 07:03:51 UTC] PHP Stack trace:
+[24-Jul-2017 07:03:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 07:03:51 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 07:03:51 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:144
+[24-Jul-2017 07:05:34 UTC] PHP Warning:  copy(Products.png): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 145
+[24-Jul-2017 07:05:34 UTC] PHP Stack trace:
+[24-Jul-2017 07:05:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 07:05:34 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 07:05:34 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:145
+[24-Jul-2017 07:08:12 UTC] PHP Warning:  copy(Products.png): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 145
+[24-Jul-2017 07:08:12 UTC] PHP Stack trace:
+[24-Jul-2017 07:08:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 07:08:12 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 07:08:12 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:145
+[24-Jul-2017 07:59:48 UTC] PHP Warning:  copy(Products1.png): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 145
+[24-Jul-2017 07:59:48 UTC] PHP Stack trace:
+[24-Jul-2017 07:59:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 07:59:48 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 07:59:48 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:145
+[24-Jul-2017 09:59:40 UTC] PHP Warning:  copy(Products.png): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 145
+[24-Jul-2017 09:59:40 UTC] PHP Stack trace:
+[24-Jul-2017 09:59:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 09:59:40 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 09:59:40 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:145
+[24-Jul-2017 10:00:48 UTC] PHP Warning:  mkdir(): No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 144
+[24-Jul-2017 10:00:48 UTC] PHP Stack trace:
+[24-Jul-2017 10:00:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 10:00:48 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 10:00:48 UTC] PHP   3. mkdir() /home/ubuntu/workspace/php/work3/lib/productsLib.php:144
+[24-Jul-2017 10:00:48 UTC] PHP Warning:  copy(Products1.png): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 144
+[24-Jul-2017 10:00:48 UTC] PHP Stack trace:
+[24-Jul-2017 10:00:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 10:00:48 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 10:00:48 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:144
+[24-Jul-2017 10:02:37 UTC] PHP Warning:  copy(Products.png): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 122
+[24-Jul-2017 10:02:37 UTC] PHP Stack trace:
+[24-Jul-2017 10:02:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 10:02:37 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 10:02:37 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:122
+[24-Jul-2017 10:03:06 UTC] PHP Warning:  copy(Products.png): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 122
+[24-Jul-2017 10:03:06 UTC] PHP Stack trace:
+[24-Jul-2017 10:03:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 10:03:06 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 10:03:06 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:122
+[24-Jul-2017 10:09:43 UTC] PHP Warning:  copy(/home/ubuntu/workspace/php/work3/lib/work3/api/products/images/phpMjCpXC38.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 122
+[24-Jul-2017 10:09:43 UTC] PHP Stack trace:
+[24-Jul-2017 10:09:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 10:09:43 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 10:09:43 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:122
+[24-Jul-2017 10:11:30 UTC] PHP Warning:  copy(/home/ubuntu/workspace/php/work3/libphp/work3/api/products/images/phpdk8Fpz39.jpg): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 122
+[24-Jul-2017 10:11:30 UTC] PHP Stack trace:
+[24-Jul-2017 10:11:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 10:11:30 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 10:11:30 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:122
+[24-Jul-2017 10:27:32 UTC] PHP Warning:  copy(Products.png): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 122
+[24-Jul-2017 10:27:32 UTC] PHP Stack trace:
+[24-Jul-2017 10:27:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 10:27:32 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 10:27:32 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:122
+[24-Jul-2017 10:29:14 UTC] PHP Warning:  copy(Products.png): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 145
+[24-Jul-2017 10:29:14 UTC] PHP Stack trace:
+[24-Jul-2017 10:29:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 10:29:14 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 10:29:14 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:145
+[24-Jul-2017 10:30:33 UTC] PHP Warning:  copy(Products1.png): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 146
+[24-Jul-2017 10:30:33 UTC] PHP Stack trace:
+[24-Jul-2017 10:30:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 10:30:33 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 10:30:33 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:146
+[24-Jul-2017 10:31:18 UTC] PHP Warning:  copy(Products1.png): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 146
+[24-Jul-2017 10:31:18 UTC] PHP Stack trace:
+[24-Jul-2017 10:31:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 10:31:18 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 10:31:18 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:146
+[24-Jul-2017 10:32:13 UTC] PHP Warning:  copy(Products.png): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 146
+[24-Jul-2017 10:32:13 UTC] PHP Stack trace:
+[24-Jul-2017 10:32:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 10:32:13 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 10:32:13 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:146
+[24-Jul-2017 10:35:08 UTC] PHP Warning:  copy(Products.png): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 146
+[24-Jul-2017 10:35:08 UTC] PHP Stack trace:
+[24-Jul-2017 10:35:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 10:35:08 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 10:35:08 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:146
+[24-Jul-2017 10:37:35 UTC] PHP Warning:  Missing argument 3 for addImage(), called in /home/ubuntu/workspace/php/work3/api/products/addImage.php on line 14 and defined in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 130
+[24-Jul-2017 10:37:35 UTC] PHP Stack trace:
+[24-Jul-2017 10:37:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 10:37:35 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 10:38:37 UTC] PHP Warning:  copy(Products.png): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 146
+[24-Jul-2017 10:38:37 UTC] PHP Stack trace:
+[24-Jul-2017 10:38:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 10:38:37 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 10:38:37 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:146
+[24-Jul-2017 10:39:27 UTC] PHP Warning:  copy(Products.png): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 146
+[24-Jul-2017 10:39:27 UTC] PHP Stack trace:
+[24-Jul-2017 10:39:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 10:39:27 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 10:39:27 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:146
+[24-Jul-2017 10:40:29 UTC] PHP Warning:  copy(Products.png): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 146
+[24-Jul-2017 10:40:29 UTC] PHP Stack trace:
+[24-Jul-2017 10:40:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 10:40:29 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 10:40:29 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:146
+[24-Jul-2017 10:45:45 UTC] PHP Warning:  copy(Products1.png): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 172
+[24-Jul-2017 10:45:45 UTC] PHP Stack trace:
+[24-Jul-2017 10:45:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 10:45:45 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 10:45:45 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:172
+[24-Jul-2017 10:46:26 UTC] PHP Warning:  copy(phpbneQNz): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 172
+[24-Jul-2017 10:46:26 UTC] PHP Stack trace:
+[24-Jul-2017 10:46:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 10:46:26 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 10:46:26 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:172
+[24-Jul-2017 10:47:22 UTC] PHP Warning:  copy(phpAEsQEK): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 172
+[24-Jul-2017 10:47:22 UTC] PHP Stack trace:
+[24-Jul-2017 10:47:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 10:47:22 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 10:47:22 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:172
+[24-Jul-2017 10:49:43 UTC] PHP Warning:  copy(Products.png): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 172
+[24-Jul-2017 10:49:43 UTC] PHP Stack trace:
+[24-Jul-2017 10:49:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 10:49:43 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 10:49:43 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:172
+[24-Jul-2017 10:53:51 UTC] PHP Warning:  copy(Products1.png): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 172
+[24-Jul-2017 10:53:51 UTC] PHP Stack trace:
+[24-Jul-2017 10:53:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 10:53:51 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 10:53:51 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:172
+[24-Jul-2017 11:54:49 UTC] PHP Warning:  copy(Products.png): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 172
+[24-Jul-2017 11:54:49 UTC] PHP Stack trace:
+[24-Jul-2017 11:54:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 11:54:49 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 11:54:49 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:172
+[24-Jul-2017 12:09:02 UTC] PHP Warning:  copy(Groupon - check IVR issues.png): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 142
+[24-Jul-2017 12:09:02 UTC] PHP Stack trace:
+[24-Jul-2017 12:09:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 12:09:02 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 12:09:02 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:142
+[24-Jul-2017 12:14:49 UTC] PHP Warning:  copy(home_page_3.png): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 142
+[24-Jul-2017 12:14:49 UTC] PHP Stack trace:
+[24-Jul-2017 12:14:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 12:14:49 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 12:14:49 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:142
+[24-Jul-2017 12:18:31 UTC] PHP Warning:  copy(Untitleda.png): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 142
+[24-Jul-2017 12:18:31 UTC] PHP Stack trace:
+[24-Jul-2017 12:18:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 12:18:31 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 12:18:31 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:142
+[24-Jul-2017 12:19:54 UTC] PHP Warning:  copy(Products1.png): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 142
+[24-Jul-2017 12:19:54 UTC] PHP Stack trace:
+[24-Jul-2017 12:19:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 12:19:54 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 12:19:54 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:142
+[24-Jul-2017 12:21:31 UTC] PHP Warning:  copy(Transfer.png): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 142
+[24-Jul-2017 12:21:31 UTC] PHP Stack trace:
+[24-Jul-2017 12:21:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 12:21:31 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 12:21:31 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:142
+[24-Jul-2017 12:22:37 UTC] PHP Warning:  copy(home_page_3.png): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 142
+[24-Jul-2017 12:22:37 UTC] PHP Stack trace:
+[24-Jul-2017 12:22:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 12:22:37 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 12:22:37 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:142
+[24-Jul-2017 12:24:42 UTC] PHP Warning:  copy(Transfer.png): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 142
+[24-Jul-2017 12:24:42 UTC] PHP Stack trace:
+[24-Jul-2017 12:24:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 12:24:42 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 12:24:42 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:142
+[24-Jul-2017 12:47:52 UTC] PHP Warning:  copy(Groupon - check IVR issues.png): failed to open stream: No such file or directory in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 151
+[24-Jul-2017 12:47:52 UTC] PHP Stack trace:
+[24-Jul-2017 12:47:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 12:47:52 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 12:47:52 UTC] PHP   3. copy() /home/ubuntu/workspace/php/work3/lib/productsLib.php:151
+[24-Jul-2017 12:50:32 UTC] PHP Warning:  mysqli_stmt_bind_param(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 129
+[24-Jul-2017 12:50:32 UTC] PHP Stack trace:
+[24-Jul-2017 12:50:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 12:50:32 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 12:50:32 UTC] PHP   3. mysqli_stmt_bind_param() /home/ubuntu/workspace/php/work3/lib/productsLib.php:129
+[24-Jul-2017 12:52:35 UTC] PHP Warning:  mysqli_stmt_bind_param(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 129
+[24-Jul-2017 12:52:35 UTC] PHP Stack trace:
+[24-Jul-2017 12:52:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 12:52:35 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 12:52:35 UTC] PHP   3. mysqli_stmt_bind_param() /home/ubuntu/workspace/php/work3/lib/productsLib.php:129
+[24-Jul-2017 12:52:35 UTC] PHP Warning:  mysqli_stmt_execute(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 130
+[24-Jul-2017 12:52:35 UTC] PHP Stack trace:
+[24-Jul-2017 12:52:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 12:52:35 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 12:52:35 UTC] PHP   3. mysqli_stmt_execute() /home/ubuntu/workspace/php/work3/lib/productsLib.php:130
+[24-Jul-2017 12:53:59 UTC] PHP Warning:  mysqli_stmt_execute(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 130
+[24-Jul-2017 12:53:59 UTC] PHP Stack trace:
+[24-Jul-2017 12:53:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 12:53:59 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 12:53:59 UTC] PHP   3. mysqli_stmt_execute() /home/ubuntu/workspace/php/work3/lib/productsLib.php:130
+[24-Jul-2017 12:55:40 UTC] PHP Warning:  mysqli_stmt_bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 127
+[24-Jul-2017 12:55:40 UTC] PHP Stack trace:
+[24-Jul-2017 12:55:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 12:55:40 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 12:55:40 UTC] PHP   3. mysqli_stmt_bind_param() /home/ubuntu/workspace/php/work3/lib/productsLib.php:127
+[24-Jul-2017 12:59:22 UTC] PHP Warning:  mysqli_stmt_bind_param(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 127
+[24-Jul-2017 12:59:22 UTC] PHP Stack trace:
+[24-Jul-2017 12:59:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 12:59:22 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 12:59:22 UTC] PHP   3. mysqli_stmt_bind_param() /home/ubuntu/workspace/php/work3/lib/productsLib.php:127
+[24-Jul-2017 12:59:22 UTC] PHP Warning:  mysqli_stmt_execute(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 128
+[24-Jul-2017 12:59:22 UTC] PHP Stack trace:
+[24-Jul-2017 12:59:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 12:59:22 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 12:59:22 UTC] PHP   3. mysqli_stmt_execute() /home/ubuntu/workspace/php/work3/lib/productsLib.php:128
+[24-Jul-2017 13:01:30 UTC] PHP Warning:  mysqli_stmt_execute(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 126
+[24-Jul-2017 13:01:30 UTC] PHP Stack trace:
+[24-Jul-2017 13:01:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 13:01:30 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 13:01:30 UTC] PHP   3. mysqli_stmt_execute() /home/ubuntu/workspace/php/work3/lib/productsLib.php:126
+[24-Jul-2017 13:13:09 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 121
+[24-Jul-2017 13:13:09 UTC] PHP Stack trace:
+[24-Jul-2017 13:13:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 13:13:09 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 13:13:09 UTC] PHP   3. mysql_real_escape_string() /home/ubuntu/workspace/php/work3/lib/productsLib.php:121
+[24-Jul-2017 13:13:09 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 121
+[24-Jul-2017 13:13:09 UTC] PHP Stack trace:
+[24-Jul-2017 13:13:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 13:13:09 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 13:13:09 UTC] PHP   3. mysql_real_escape_string() /home/ubuntu/workspace/php/work3/lib/productsLib.php:121
+[24-Jul-2017 13:13:53 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 121
+[24-Jul-2017 13:13:53 UTC] PHP Stack trace:
+[24-Jul-2017 13:13:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 13:13:53 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 13:13:53 UTC] PHP   3. mysql_real_escape_string() /home/ubuntu/workspace/php/work3/lib/productsLib.php:121
+[24-Jul-2017 13:13:53 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 121
+[24-Jul-2017 13:13:53 UTC] PHP Stack trace:
+[24-Jul-2017 13:13:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 13:13:53 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 13:13:53 UTC] PHP   3. mysql_real_escape_string() /home/ubuntu/workspace/php/work3/lib/productsLib.php:121
+[24-Jul-2017 13:16:20 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 121
+[24-Jul-2017 13:16:20 UTC] PHP Stack trace:
+[24-Jul-2017 13:16:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 13:16:20 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 13:16:20 UTC] PHP   3. mysql_real_escape_string() /home/ubuntu/workspace/php/work3/lib/productsLib.php:121
+[24-Jul-2017 13:16:20 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 121
+[24-Jul-2017 13:16:20 UTC] PHP Stack trace:
+[24-Jul-2017 13:16:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 13:16:20 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 13:16:20 UTC] PHP   3. mysql_real_escape_string() /home/ubuntu/workspace/php/work3/lib/productsLib.php:121
+[24-Jul-2017 13:18:16 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 122
+[24-Jul-2017 13:18:16 UTC] PHP Stack trace:
+[24-Jul-2017 13:18:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 13:18:16 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 13:18:16 UTC] PHP   3. mysql_real_escape_string() /home/ubuntu/workspace/php/work3/lib/productsLib.php:122
+[24-Jul-2017 13:18:16 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 122
+[24-Jul-2017 13:18:16 UTC] PHP Stack trace:
+[24-Jul-2017 13:18:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 13:18:16 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 13:18:16 UTC] PHP   3. mysql_real_escape_string() /home/ubuntu/workspace/php/work3/lib/productsLib.php:122
+[24-Jul-2017 13:20:26 UTC] PHP Warning:  mysql_real_escape_string(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 122
+[24-Jul-2017 13:20:26 UTC] PHP Stack trace:
+[24-Jul-2017 13:20:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 13:20:26 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 13:20:26 UTC] PHP   3. mysql_real_escape_string() /home/ubuntu/workspace/php/work3/lib/productsLib.php:122
+[24-Jul-2017 13:20:26 UTC] PHP Warning:  mysql_real_escape_string(): A link to the server could not be established in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 122
+[24-Jul-2017 13:20:26 UTC] PHP Stack trace:
+[24-Jul-2017 13:20:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[24-Jul-2017 13:20:26 UTC] PHP   2. addImage() /home/ubuntu/workspace/php/work3/api/products/addImage.php:14
+[24-Jul-2017 13:20:26 UTC] PHP   3. mysql_real_escape_string() /home/ubuntu/workspace/php/work3/lib/productsLib.php:122
+[24-Jul-2017 13:22:36 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 243
+[24-Jul-2017 13:22:36 UTC] PHP Stack trace:
+[24-Jul-2017 13:22:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/addImage.php:0
+[29-Jul-2017 22:01:45 UTC] PHP Warning:  mysqli_stmt_execute(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 254
+[29-Jul-2017 22:01:45 UTC] PHP Stack trace:
+[29-Jul-2017 22:01:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/getHotdeals.php:0
+[29-Jul-2017 22:01:45 UTC] PHP   2. getHotdeals() /home/ubuntu/workspace/php/work3/api/products/getHotdeals.php:9
+[29-Jul-2017 22:01:45 UTC] PHP   3. mysqli_stmt_execute() /home/ubuntu/workspace/php/work3/lib/productsLib.php:254
+[29-Jul-2017 22:01:45 UTC] PHP Warning:  mysqli_stmt_get_result(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 256
+[29-Jul-2017 22:01:45 UTC] PHP Stack trace:
+[29-Jul-2017 22:01:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/getHotdeals.php:0
+[29-Jul-2017 22:01:45 UTC] PHP   2. getHotdeals() /home/ubuntu/workspace/php/work3/api/products/getHotdeals.php:9
+[29-Jul-2017 22:01:45 UTC] PHP   3. mysqli_stmt_get_result() /home/ubuntu/workspace/php/work3/lib/productsLib.php:256
+[29-Jul-2017 22:01:45 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/php/work3/lib/productsLib.php on line 258
+[29-Jul-2017 22:01:45 UTC] PHP Stack trace:
+[29-Jul-2017 22:01:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/getHotdeals.php:0
+[29-Jul-2017 22:01:45 UTC] PHP   2. getHotdeals() /home/ubuntu/workspace/php/work3/api/products/getHotdeals.php:9
+[29-Jul-2017 22:01:45 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/php/work3/lib/productsLib.php:258
+[07-Aug-2017 12:31:47 UTC] PHP Fatal error:  Call to undefined function getFurnitureGallery() in /home/ubuntu/workspace/php/work3/api/products/getFurnitureGallery.php on line 9
+[07-Aug-2017 12:31:47 UTC] PHP Stack trace:
+[07-Aug-2017 12:31:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/getFurnitureGallery.php:0
+[07-Aug-2017 12:32:01 UTC] PHP Fatal error:  Call to undefined function getFurnitureGallery() in /home/ubuntu/workspace/php/work3/api/products/getFurnitureGallery.php on line 9
+[07-Aug-2017 12:32:01 UTC] PHP Stack trace:
+[07-Aug-2017 12:32:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/getFurnitureGallery.php:0
+[07-Aug-2017 12:32:02 UTC] PHP Fatal error:  Call to undefined function getFurnitureGallery() in /home/ubuntu/workspace/php/work3/api/products/getFurnitureGallery.php on line 9
+[07-Aug-2017 12:32:02 UTC] PHP Stack trace:
+[07-Aug-2017 12:32:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/products/getFurnitureGallery.php:0
+[13-Aug-2017 17:17:13 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php/work3/lib/userLib.php on line 47
+[13-Aug-2017 17:17:13 UTC] PHP Stack trace:
+[13-Aug-2017 17:17:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/user/newsletterRegister.php:0
+[13-Aug-2017 17:17:13 UTC] PHP   2. newsletterRegister() /home/ubuntu/workspace/php/work3/api/user/newsletterRegister.php:19
+[13-Aug-2017 17:17:13 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/php/work3/lib/userLib.php:47
+[13-Aug-2017 17:18:08 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php/work3/lib/userLib.php on line 47
+[13-Aug-2017 17:18:08 UTC] PHP Stack trace:
+[13-Aug-2017 17:18:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/user/newsletterRegister.php:0
+[13-Aug-2017 17:18:08 UTC] PHP   2. newsletterRegister() /home/ubuntu/workspace/php/work3/api/user/newsletterRegister.php:19
+[13-Aug-2017 17:18:08 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/php/work3/lib/userLib.php:47
+[13-Aug-2017 17:18:58 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php/work3/lib/userLib.php on line 47
+[13-Aug-2017 17:18:58 UTC] PHP Stack trace:
+[13-Aug-2017 17:18:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/user/newsletterRegister.php:0
+[13-Aug-2017 17:18:58 UTC] PHP   2. newsletterRegister() /home/ubuntu/workspace/php/work3/api/user/newsletterRegister.php:19
+[13-Aug-2017 17:18:58 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/php/work3/lib/userLib.php:47
+[13-Aug-2017 17:19:43 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/php/work3/lib/userLib.php on line 47
+[13-Aug-2017 17:19:43 UTC] PHP Stack trace:
+[13-Aug-2017 17:19:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/user/newsletterRegister.php:0
+[13-Aug-2017 17:19:43 UTC] PHP   2. newsletterRegister() /home/ubuntu/workspace/php/work3/api/user/newsletterRegister.php:26
+[13-Aug-2017 17:19:43 UTC] PHP   3. mysqli_fetch_assoc() /home/ubuntu/workspace/php/work3/lib/userLib.php:47
+[13-Aug-2017 17:22:54 UTC] PHP Warning:  mysqli_stmt_bind_param(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/php/work3/lib/userLib.php on line 41
+[13-Aug-2017 17:22:54 UTC] PHP Stack trace:
+[13-Aug-2017 17:22:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/user/newsletterRegister.php:0
+[13-Aug-2017 17:22:54 UTC] PHP   2. newsletterRegister() /home/ubuntu/workspace/php/work3/api/user/newsletterRegister.php:26
+[13-Aug-2017 17:22:54 UTC] PHP   3. mysqli_stmt_bind_param() /home/ubuntu/workspace/php/work3/lib/userLib.php:41
+[13-Aug-2017 17:22:54 UTC] PHP Warning:  mysqli_stmt_execute(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/php/work3/lib/userLib.php on line 43
+[13-Aug-2017 17:22:54 UTC] PHP Stack trace:
+[13-Aug-2017 17:22:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/user/newsletterRegister.php:0
+[13-Aug-2017 17:22:54 UTC] PHP   2. newsletterRegister() /home/ubuntu/workspace/php/work3/api/user/newsletterRegister.php:26
+[13-Aug-2017 17:22:54 UTC] PHP   3. mysqli_stmt_execute() /home/ubuntu/workspace/php/work3/lib/userLib.php:43
+[13-Aug-2017 17:24:04 UTC] PHP Warning:  mysqli_stmt_bind_param(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/php/work3/lib/userLib.php on line 41
+[13-Aug-2017 17:24:04 UTC] PHP Stack trace:
+[13-Aug-2017 17:24:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/user/newsletterRegister.php:0
+[13-Aug-2017 17:24:04 UTC] PHP   2. newsletterRegister() /home/ubuntu/workspace/php/work3/api/user/newsletterRegister.php:26
+[13-Aug-2017 17:24:04 UTC] PHP   3. mysqli_stmt_bind_param() /home/ubuntu/workspace/php/work3/lib/userLib.php:41
+[13-Aug-2017 17:24:04 UTC] PHP Warning:  mysqli_stmt_execute(): invalid object or resource mysqli_stmt
+ in /home/ubuntu/workspace/php/work3/lib/userLib.php on line 43
+[13-Aug-2017 17:24:04 UTC] PHP Stack trace:
+[13-Aug-2017 17:24:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/php/work3/api/user/newsletterRegister.php:0
+[13-Aug-2017 17:24:04 UTC] PHP   2. newsletterRegister() /home/ubuntu/workspace/php/work3/api/user/newsletterRegister.php:26
+[13-Aug-2017 17:24:04 UTC] PHP   3. mysqli_stmt_execute() /home/ubuntu/workspace/php/work3/lib/userLib.php:43
