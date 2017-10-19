@@ -201,10 +201,10 @@
       <div class="feedback-all-slides"></div>
     </div>
     <!-- Add magic with javascript and query -->
-    <script type="text/javascript" src="https://preview.c9users.io/mihaisitaru/bazar_shop_online/javascript/jquery-2.2.4.min.js"></script>
-    <script type="text/javascript" src="https://preview.c9users.io/mihaisitaru/bazar_shop_online/javascript/brands-slider.js"></script>
-    <script type="text/javascript" src="https://preview.c9users.io/mihaisitaru/bazar_shop_online/javascript/js.js"></script>
-    <script type="text/javascript" src="https://preview.c9users.io/mihaisitaru/bazar_shop_online/javascript/go-to-top.js"></script>
+    <script type="text/javascript" src="javascript/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" src="javascript/brands-slider.js"></script>
+    <script type="text/javascript" src="javascript/js.js"></script>
+    <script type="text/javascript" src="javascript/go-to-top.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
     <!-- Include the footer -->
     <?php include_once(__DIR__."/php/work3/config/footer.php"); ?>
